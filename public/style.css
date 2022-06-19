@@ -1,0 +1,104 @@
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+.container {
+  width: 60vw;
+  margin: auto;
+  -webkit-box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.237);
+          box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.237);
+  margin-top: 8rem;
+}
+
+.container .imgBox {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #eee;
+  padding: .8rem;
+  padding-left: 2rem;
+}
+
+.container .imgBox .heading {
+  font-size: 1.5rem;
+  font-weight: 500;
+  padding-left: .5rem;
+}
+
+.container .msgBox {
+  height: 60vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  overflow-y: auto;
+}
+
+.container .msgBox .incoming {
+  -ms-flex-item-align: start;
+      align-self: flex-start;
+  margin-left: 3rem;
+  margin-top: 1rem;
+}
+
+.container .msgBox .incoming h3 {
+  font-size: .9rem;
+}
+
+.container .msgBox .incoming p {
+  background-color: #c5c1fc;
+  border-radius: .2rem;
+  width: 350px;
+  padding: 1rem;
+}
+
+.container .msgBox .outgoing {
+  -ms-flex-item-align: end;
+      align-self: flex-end;
+  margin-top: 1rem;
+  margin-right: 3rem;
+}
+
+.container .msgBox .outgoing h3 {
+  font-size: .9rem;
+}
+
+.container .msgBox .outgoing p {
+  background-color: #a29bfe;
+  border-radius: .2rem;
+  width: 350px;
+  padding: 1rem;
+}
+
+.container textarea {
+  width: 50vw;
+  border: none;
+  outline: none;
+  padding-left: 1.5rem;
+  padding-top: .5rem;
+  padding-bottom: .5rem;
+  background-color: #fefefe;
+  font-size: 1rem;
+}
+
+.container button {
+  -webkit-transform: translate(-15px, -13px);
+          transform: translate(-15px, -13px);
+  background-color: #6d63fb;
+  color: #fefefe;
+  border: none;
+  outline: none;
+  padding: .7rem;
+  border-radius: .3rem;
+}
+/*# sourceMappingURL=style.css.map */
